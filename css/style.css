@@ -1,0 +1,73 @@
+body {
+  text-align: center;
+  background: url("../image/banner/banner1-4.jpg")no-repeat center center /cover;
+}
+
+#search_box{
+  margin: 100px; 
+  height: 200px;
+}
+#sear
+
+
+body,
+input,
+button {
+  font-family: palatino;
+  font-size: 12pt;
+ 
+
+}
+
+input {
+  width: 350px;
+  height: 50px;
+  padding: 3px;
+  border: 1px solid #DDE1E4;
+}
+
+select {
+  width: 258px;
+  position: relative;
+  left: -17px;
+  margin: 0;
+  border: 1px solid #DDE1E4;
+  border-top: none;
+  font-size: 9pt;
+}
+
+datalist {
+  display: none;
+}
+
+option {
+  padding: 3px;
+}
+
+option:hover {
+  background-color: #f22283;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  position: relative;
+  left: -5px;
+  border: 1px solid #ffffff;
+  border-left: none;
+  background-color: #f22283;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+h3,
+h4 {
+  text-align: center;
+}
+
+
+/* to hide datalist arrow in webkit */
+
+input::-webkit-calendar-picker-indicator {
+  display: none;
+}
